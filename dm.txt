@@ -1,0 +1,6 @@
+GET /students
+GET /exams
+GET /exams/{id}/grades
+
+POST /students
+POST /exams/{id}/students/{id}/grades

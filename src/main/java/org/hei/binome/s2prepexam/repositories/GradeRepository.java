@@ -5,5 +5,9 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class GradeRepository {
-//g
+    DatabaseConnection databaseConnection;
+
+    public GradeRepository(DatabaseConnection databaseConnection) {
+        this.databaseConnection = databaseConnection;
+    }
 }

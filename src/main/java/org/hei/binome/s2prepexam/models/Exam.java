@@ -9,7 +9,7 @@ import java.util.List;
 public class Exam {
     private String id;
     private String title;
-    private Instant exam_date;
+    private Instant examDate;
     private int coefficient;
     private List<Grade> grades;
 }
