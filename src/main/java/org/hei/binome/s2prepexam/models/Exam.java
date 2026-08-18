@@ -1,4 +1,4 @@
-package org.hei.binome.s2prepexam.model;
+package org.hei.binome.s2prepexam.models;
 
 import lombok.Data;
 
